@@ -1,4 +1,4 @@
-## Hourly wage calculator with the ability to calculate over time.
+# Hourly wage calculator with the ability to calculate over time.
 #  Same if statements with try and execpt
 
 
