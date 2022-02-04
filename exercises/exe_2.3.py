@@ -20,4 +20,6 @@ def small_number():
             print(number_holder)
 small_number()
 
- 
+# just print off the list of numbers
+for x in [3, 2, 1, 0]:
+    print(x)

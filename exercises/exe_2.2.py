@@ -25,3 +25,21 @@ while position < len(number_sequ):
     position += 1 # Moves the index up by 1 for each loop until the end.
 else:
     print("No even number was found")
+
+
+#guess me
+
+magic_number = 8
+guess = 1
+
+while True:
+    if guess < magic_number:
+        print("To low")
+    elif guess == magic_number:
+        print("Spot on!")
+        break
+    elif guess > magic_number:
+        print("oops")
+    guess += 1
+
+
