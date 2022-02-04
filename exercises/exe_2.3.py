@@ -23,3 +23,17 @@ small_number()
 # just print off the list of numbers
 for x in [3, 2, 1, 0]:
     print(x)
+
+
+# using range() in a for loop
+
+magic_number = 15
+
+for x in range(0, 20, 3):  # Range(start point, stop point, step) using 3 (0, 3, 6, 9, 12 15)
+    if x < magic_number:
+        print('To low', x)
+    elif x == magic_number:
+        print('Spot on!')
+        break
+    else:
+        print('You overshot')
