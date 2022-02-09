@@ -35,4 +35,25 @@ for i in paragraph:
 
 print(total_a)
 
+buzz_word = "Mississippi"
+'s' in buzz_word
+
+buzz_word = "MISSISSIPPI"
+stop_yelling = buzz_word.lower()
+print(stop_yelling)
+
+print('HELLO FROM THE OTHER SIDE'.lower())
+
+buzz_word = "mississippi"
+speak_up = buzz_word.upper()
+print(speak_up)
+
+buzz_word = "Mississippi"
+state_change = buzz_word.replace('Mississippi', 'Minnesota')
+print(state_change)
+
+buzz_word = "Mississippi"
+letter_change = buzz_word.replace('s', 'x')
+print(letter_change)
+
 
