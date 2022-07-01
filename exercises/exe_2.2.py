@@ -1,7 +1,7 @@
 # creating a while loop that uses break and continue.
 
 while True:
-    int_value = input("Put in a number and rember to say Please to stop the loop: ")
+    int_value = input("Put in a number and remember to say Please to stop the loop: ")
     if int_value == "Please":
         break
     number = int(int_value)
